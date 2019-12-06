@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.4.0.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="caaef855-5bd5-4828-aeb4-953d6cc2317f" data-root-id="1002"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1163">
+          {"1e745b07-3248-473f-8346-f61cc639a72d":{"roots":{"references":[{"attributes":{"callback":null,"end":10},"id":"1007","type":"Range1d"},{"attributes":{},"id":"1044","type":"BasicTickFormatter"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"size":{"field":"size","units":"screen"},"x":{"field":"age"},"y":{"field":"Hours Exercised"}},"id":"1040","type":"Circle"},{"attributes":{"data_source":{"id":"1001","type":"ColumnDataSource"},"glyph":{"id":"1039","type":"Circle"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1040","type":"Circle"},"selection_glyph":null,"view":{"id":"1042","type":"CDSView"}},"id":"1041","type":"GlyphRenderer"},{"attributes":{},"id":"1048","type":"UnionRenderers"},{"attributes":{"axis_label":"Average Hour of Exercise","formatter":{"id":"1046","type":"BasicTickFormatter"},"ticker":{"id":"1019","type":"BasicTicker"}},"id":"1018","type":"LinearAxis"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"1051","type":"BoxAnnotation"},{"attributes":{"source":{"id":"1001","type":"ColumnDataSource"}},"id":"1042","type":"CDSView"},{"attributes":{},"id":"1049","type":"Selection"},{"attributes":{},"id":"1009","type":"LinearScale"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"1050","type":"BoxAnnotation"},{"attributes":{},"id":"1023","type":"PanTool"},{"attributes":{"callback":null,"end":90,"start":20},"id":"1005","type":"Range1d"},{"attributes":{},"id":"1024","type":"WheelZoomTool"},{"attributes":{"fill_color":{"value":"Red"},"line_color":{"value":"Red"},"size":{"field":"size","units":"screen"},"x":{"field":"age"},"y":{"field":"Hours Exercised"}},"id":"1039","type":"Circle"},{"attributes":{"overlay":{"id":"1050","type":"BoxAnnotation"}},"id":"1025","type":"BoxZoomTool"},{"attributes":{"fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"xs_units":"screen","ys_units":"screen"},"id":"1052","type":"PolyAnnotation"},{"attributes":{},"id":"1026","type":"ResetTool"},{"attributes":{"callback":null,"data":{"Hours Exercised":{"__ndarray__":"QtXZTkKK4D/NJI5xQSMDQCeN00ALqAJA7p3c3+xU/j/6dMIeMNMHQEhOhxWFZAZAQODmXzmrCEAmLCPy7toGQPJs/NWWOQtADkJo8OBXBEChsLZjiGMBQP8jQ94GDQFAHghMiTibB0CeRToRobYHQMbilSydRug/GC6q/gqBCEC5CXtp72b+P/SLn2X3ngJAYxkqninsA0Clu53qLdsHQK7AgrDnPgpA7xxEVVHQAEABtnxu16IAQOc8lm5wJgBAU7xqPhUmAEDOhvbc3csOQHbao+kIMwBAUOD7UtdWBUCWPBYiPGYIQO2Kue6l7BJAGpNTAv3aG0Alf7Mv5j4VQIz8eKVU6BNARR/82l6RGUA/iHIS7uwRQBrhZMxaXBJAM8U4kJkPFkAV2B5yoTkWQPyMXRLu5xVAzT5A8znJFEAEMCSudvkUQHnaAPRAgRBAUxIEN9veGEBQ++IbOIERQBptuXAA7xJAFlDXHJGmGkBCoO0RN44VQIoaFo4R8hJAjpsiR/3aEkAOcnAAtWsSQF3ze/hbpBBAFUnPkWdkFkAyYIBrLecTQBuPuUZJnhZAu2VZmL98EkBFGMdv6dsLQKafUJlWiBVACYIAUt9WFUBnyhgsvGYRQFzbC5O0khFAy4RAD53wE0DLXtB+4+ILQIfjpxfS9BRA","dtype":"float64","shape":[63]},"age":[20,21,22,23,24,25,26,27,28,29,30,31,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84],"index":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62],"probability":{"__ndarray__":"K1yXFvkDM0CWFFpL8GIxQIgO/eS/5C9A+VXIUhcKNEAxfvLnESY0QEnyPeCAmzRAcz8EdVwSM0AMuPYjProyQOVAve+XVC9AV7lSn+S3NUBHx4pBojM3QI3OD3UEhDZA9C3lmEMZNUDOUsWYu0Y2QIvhKpNWczpAU/evXEldOEBoyTB94jk6QJc5/QmhVTpAJTYOVwOtOUCYJmTIp9E5QJCn3a340TpAu1GfMTzfPED0FfbqrtU9QEU8LvppOj5Ay3vQXY2bPUBTFU6ZnQg5QC20aXaNej9Acvjp87gAQECqA6OThQI+QDxVQsnOTERAVyQh4V3aQEDMwvIeApRDQMxvdLkx8ENA41uT0snCQkDt1vobr35FQAw3Cnn6ckVAHExNej8bREAWkhKS0zpEQGRQXn1x+URAkM6rH29TRED1kmjKY6dFQO7cTUHxTEdAzl8PTXwkREAceEfeAXNHQPVub9Y2OUdAfCy09mchRECQDWdO/2hGQIi3yZctMUdAHedqiBbsRkDo/SjtprhHQLnZ7e84+EhAeHODQORqRkA2Ng9BIyZIQCBvGzStZkZAT3YktyPbSED3v+OQK4hKQLi7KJmd3EdALCWGP7C0R0Bsy2WdDqNJQGLzPlJKkklAI5XT2VvcSEBcYaxb8PxLQD5CnlbW10hA","dtype":"float64","shape":[63]},"size":{"__ndarray__":"kkqQ4tKsBEAArvHNEewnQHFwCBEOUidAteLpCxT1IkA4EnMm/MctQNoh6Vqm/StAUJjgtwfWLkAw96uuqpEsQBfEvUX+AzFAklKCLNltKUDJXKR8arwlQP/s05VIUCVAJgqfqwaCLUAG14hVSaQtQHhbu3dEWA5AnrlUvk2hLkAU5uyhVQAjQPFuBz+1RidAvJ+0BTTnKECOKkVl+dEtQG24Uc5QZzBAKySVqmUEJUCB4xtKjcskQCHMO4oMMCRAaGsFjpovJEBBFBqqaj8zQBTRDCTLPyRAZNi6J42sKkC8y5sqy38uQKjtZ2rPpzdA8Dt0Id5oQUDuXqC7n446QK87185p4jhAFie7kbb1P0BPKg+XKWg2QGAZfn9x8zZAgPZG9H+TO0AajqbOCcg7QDvw9JbpYTtAgE4QcIj7OUAFPK1Z1Dc6QBcRATGRoTRA6BbFBJIWP0AkutsihuE1QGDI54zAqjdADpIGshqoQEBSCGnWxPE6QCyhm/GVrjdAckLrmLyRN0CSjoxAogY3QDTwmvZyzTRAWhtDdoH9O0A+eGDG+OA4QOLyZ5jbRTxAKr9vfu8bN0Arb9zlcWkxQJDHpD9s6jpAi6KAJpesOkAB/R43a8A1QDPSzrdh9zVA/qUQU8TsOEA/O0Ivzm0xQGnckZ0GMjpA","dtype":"float64","shape":[63]}},"selected":{"id":"1049","type":"Selection"},"selection_policy":{"id":"1048","type":"UnionRenderers"}},"id":"1001","type":"ColumnDataSource"},{"attributes":{},"id":"1027","type":"SaveTool"},{"attributes":{},"id":"1011","type":"LinearScale"},{"attributes":{},"id":"1046","type":"BasicTickFormatter"},{"attributes":{"callback":null,"overlay":{"id":"1051","type":"BoxAnnotation"}},"id":"1028","type":"BoxSelectTool"},{"attributes":{"below":[{"id":"1013","type":"LinearAxis"}],"center":[{"id":"1017","type":"Grid"},{"id":"1022","type":"Grid"}],"left":[{"id":"1018","type":"LinearAxis"}],"renderers":[{"id":"1041","type":"GlyphRenderer"}],"title":{"id":"1003","type":"Title"},"toolbar":{"id":"1030","type":"Toolbar"},"x_range":{"id":"1005","type":"Range1d"},"x_scale":{"id":"1009","type":"LinearScale"},"y_range":{"id":"1007","type":"Range1d"},"y_scale":{"id":"1011","type":"LinearScale"}},"id":"1002","subtype":"Figure","type":"Plot"},{"attributes":{"text":"Average Hour of Exercise by Age"},"id":"1003","type":"Title"},{"attributes":{"axis_label":"Age","formatter":{"id":"1044","type":"BasicTickFormatter"},"ticker":{"id":"1014","type":"BasicTicker"}},"id":"1013","type":"LinearAxis"},{"attributes":{"callback":null,"overlay":{"id":"1052","type":"PolyAnnotation"}},"id":"1029","type":"LassoSelectTool"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1023","type":"PanTool"},{"id":"1024","type":"WheelZoomTool"},{"id":"1025","type":"BoxZoomTool"},{"id":"1026","type":"ResetTool"},{"id":"1027","type":"SaveTool"},{"id":"1028","type":"BoxSelectTool"},{"id":"1029","type":"LassoSelectTool"}]},"id":"1030","type":"Toolbar"},{"attributes":{},"id":"1014","type":"BasicTicker"},{"attributes":{},"id":"1019","type":"BasicTicker"},{"attributes":{"ticker":{"id":"1014","type":"BasicTicker"}},"id":"1017","type":"Grid"},{"attributes":{"dimension":1,"ticker":{"id":"1019","type":"BasicTicker"}},"id":"1022","type":"Grid"}],"root_ids":["1002"]},"title":"Bokeh Application","version":"1.4.0"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1163').textContent;
+                  var render_items = [{"docid":"1e745b07-3248-473f-8346-f61cc639a72d","roots":{"1002":"caaef855-5bd5-4828-aeb4-953d6cc2317f"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
